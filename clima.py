@@ -54,8 +54,8 @@ global imagem
 
 #Função que retorna as informações
 def informacao():
-    
-    chave = '6f7a25a92aa5113fdc189b0a2a300c85'
+    #Aqui a chave da API do openweathermap.org
+    chave = ''
     cidade = e_local.get()
     api_link = 'https://api.openweathermap.org/data/2.5/weather?q={}&appid={}&units=metric&lang=PT'.format(cidade,chave)
 
